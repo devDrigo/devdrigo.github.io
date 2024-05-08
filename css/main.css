@@ -119,8 +119,10 @@ header .container nav a {
 .banner {
   color: var(--light);
   min-height: 100vh;
-  background: url("../images/banner.jpg");
-  background-position: center right;
+  background: url("../images/banner.gif");
+    background-color: rgba(0, 0, 0, 0.6); /* Ajuste a opacidade conforme necessário */
+    background-blend-mode: darken;
+  background-position: center, left;
   background-size: cover;
   display: -ms-grid;
   display: grid;
